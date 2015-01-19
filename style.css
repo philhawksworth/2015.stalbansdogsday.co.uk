@@ -43,6 +43,19 @@ h3 { font-size: 28px; }
   position: relative;
 }
 
+.series {
+  font-style: italic;
+  font-size: 0.8em;
+  background-color: #ad164a;
+  color:#ccc;
+}
+
+ .series .container {
+  background-color: #931240;
+  padding: 0.6em;
+  text-align: center;
+ }
+
 .sponsors {
   font-style: italic;
   font-size: 0.8em;
@@ -62,13 +75,19 @@ h3 { font-size: 28px; }
     white-space: nowrap;
   }
 
+
+  .series a:link,
+  .series a:visited,
   .sponsors a:link,
   .sponsors a:visited {
-    color: #ddd;
+    color: #fff;
     text-decoration: none;
   }
+  .series a:hover,
+  .sponsors a:focus, 
   .sponsors a:hover,
   .sponsors a:focus {
+    color: #fff;
     text-decoration: underline;
   }
 
@@ -326,7 +345,7 @@ ul {
     height: 300px; 
   }
 
-  ul.stalls li span {
+  .stalls li span {
     display: inline-block;
     font-size: 1em;
     margin-left: 0.2em;
@@ -334,7 +353,7 @@ ul {
     margin-bottom: 0;
 
   }
-  ul.stalls li span::before {
+  .stalls li span::before {
     content: "- ";
 
   }
