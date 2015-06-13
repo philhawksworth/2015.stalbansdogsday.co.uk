@@ -306,6 +306,12 @@ ul {
     border-bottom: solid 1px #baa3c7;
   }
 
+.terms {
+  font-style: italic;
+  font-size: 0.8em;
+  color: #666;
+}
+
 
 
 @media all and (min-width: 400px) {
